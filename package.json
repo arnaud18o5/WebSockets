@@ -1,0 +1,22 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaud18o5/WebSockets.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Arnaud Avocat-Gros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnaud18o5/WebSockets/issues"
+  },
+  "homepage": "https://github.com/arnaud18o5/WebSockets#readme"
+}
