@@ -33,8 +33,14 @@ io.on('connection', (socket) => {
         console.log(room);
         if(room !== ''){
             socket.join(room);
-            io.to(room).emit('chat message', `${socket.id} has joined the room`);
+            io.to(room).emit('chat message', `${socket.id} has joined the room.`);
         }
+    })
+
+    socket.on('disconnect room', (room) => {
+        console.log("try to disconnect to ", room);
+        io.to(room).emit('chat message', `${socket.id} has left the room.`)
+        socket.leave(room);
     })
     
 });  

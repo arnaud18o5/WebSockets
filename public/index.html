@@ -13,11 +13,16 @@
         #messages { list-style-type: none; margin: 0; padding: 0; max-height: calc(100vh - 50px) !important; overflow: auto; }
         #messages li { padding: 5px 10px; }
         #messages li:nth-child(odd) { background: #eee; }
+        #rooms-list li {display: inline}
     </style>
     <form action="#" id="room-select">
         <input type="text" id="rooms">
         <input type="submit">
     </form>
+    <ul id="rooms-list">
+        <p>you are connected to :</p>
+    </ul>
+    <p>Click on the room you want to be disconnected</p>
     <ul id="chat">
         <p>Chat </p>
     </ul>
